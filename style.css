@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fafcf6;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+
+
+header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #b7c49d;
+    color: #a62831;
+}
+.menu_billede img {
+    width: 15%;
+    height: 100%;
+}
+.menu_billede h1 {
+    margin-top: 15px;
+    font-size: 3em;
+    margin-left: 20px;
+}
+.menu_billede {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+header a {
+    text-decoration: none;
+    color: #a62831;
+}
+.menu_tekst {
+    width: 50%;
+    text-align: right;
+    margin-top: 70px;
+}
+.menu_tekst li {
+    display: inline;
+}
+.menu_tekst a {
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    background-color: #69764f;
+    color: #a62831;
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu_tekst a:hover {
+    background-color: #86916f;
+}
+
+
+
+
+
+.login_container {
+    width: 30%;
+    margin: 0 auto;
+    background-color: #b7c49d;
+    padding: 10px;
+    text-align: center;
+    margin-top: 100px;
+}
+.login_container label {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.login_container input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 0.9em;
+    font-family: 'Indie Flower', cursive;
+}
+button {
+    width: 100%;
+    padding: 7px;
+    background-color: #69764f;
+    border: none;
+    font-size: 1.2em;
+    font-family: 'Indie Flower', cursive;
+}
+button:hover {
+    background-color: #86916f;
+}
+.login_container h3 {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1em;
+    font-weight: normal;
+}
+.login_container a {
+    color: black;
+}
+.login_container a:hover {
+    font-weight: bold;
+}
+
+
+
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.opret {
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #b7c49d;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.opret h4 {
+    text-align: center;
+    font-size: 1.3em;
+}
+.opret input, .opret select, .opret textarea {
+    padding: 2px;
+    margin-bottom: 15px;
+    border: none;
+}
+.opret input {
+    width: 40px;
+}
+.din_kalender {
+    width: 100%;
+    text-align: center;
+    background-color: #6a0e15;
+    color: white;
+    padding: 5px;
+    font-size: 1.5em;
+}
+.manede {
+    width: 100%;
+    text-align: center;
+    background-color: #a62831;
+    padding: 5px;
+}
+.begivenhed_boks {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-top: 1px solid black;
+}
+.begivenheds_billede {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 1px solid #808e65;
+    background-color: #b7c49d;
+} 
+.begivenheds_billede img {
+    width: 100%;
+}
+.datoen {
+    width: 40%;
+    font-size: 3.5em;
+    padding-top: 10px;
+    outline: 1px solid black;
+}
+.streg {
+    width: 6%;
+    text-align: center;
+    font-size: 3.5em;
+    padding-top: 10px;
+}
+.teksten {
+    width: 43%;
+    font-size: 2.3em;
+    padding-top: 23px;
+}
+.slet_rediger {
+    width: 10%;
+}
+.rediger {
+    padding-top: 7px;
+}
+
+
+
+
+
+
+.logud, .login {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 1.5em;
+}
+
+.login a {
+    color: black
+}
+
+
+
+
+
+
+
