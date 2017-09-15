@@ -4,7 +4,7 @@
 	//1. Konstanter til forbindelsesdata TIL LOCALHOST
 	const HOSTNAME = 'linemirellaknudsen.dk.mysql'; 	//Servernavn
 	const MYSQLUSER = 'linemirellaknudsen_dk_min_kalender'; 	  	// Super bruger (remote har særskilte databaser brugere)
-	const MYSQLPASS = 'kalender';		// Bruger password
+	const MYSQLPASS = '';		// Bruger password
 	const MYSQLDB = 'linemirellaknudsen_dk_min_kalender';		// Database navn
 
 	// 2. Opretteforbindelsen vi mysqli objekt
